@@ -9,7 +9,7 @@ terraform{
 provider "azurerm"{
     features{}
     resource_provider_registrations = "none"
-    subscription_id = "16389ffe-9578-44f0-a2b7-83141fd29b51"
+    subscription_id = "xxxxx-xxxx-xxxx-xxxx-xxxxxxxx"
 }
 resource "azurerm_resource_group""lab"{
     name = "rgp-cyber-lab-01"
